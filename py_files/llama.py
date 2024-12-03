@@ -2,7 +2,7 @@ from groq import Groq
 import speech_to_text
 
 # get your key 
-api_key = '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'
+api_key = 'api key goes here' #insert your api key from https://console.groq.com/keys here.
 
 question = f"Give a direct response in few sentences to the question and let your answer be streamed lined to education and academics, and if a non educational or academical question is asked, answer with diplomacy that you can't give response to it, this is the question {speech_to_text.audio_to_text_converter('recording.wav')}"
 
