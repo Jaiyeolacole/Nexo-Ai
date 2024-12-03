@@ -8,7 +8,7 @@ import assemblyai as aai
 import audio_esp_to_com
 
 # Replace with your API key
-aai.settings.api_key = "e0002e9595d94613b8fb70857b1c0738"
+aai.settings.api_key = "**********************" #your assemblyai api key goes here.
     
   
 def audio_to_text_converter(file_url):
