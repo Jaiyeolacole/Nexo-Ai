@@ -4,11 +4,11 @@
 #include "Arduino.h"
 
 // WiFi credentials
-const char* ssid = "esp8266";
-const char* password = "9876543210";
+const char* ssid = "your ssid";
+const char* password = "your password";
 
 // Static IP configuration
-IPAddress staticIP(192, 168, 137, 100); // Desired static IP
+IPAddress staticIP(192, 168, 137, ***); // Desired static IP
 IPAddress gateway(192, 168, 1, 1);      // Hotspot gateway (e.g., 192.168.1.1)
 IPAddress subnet(255, 255, 255, 0);     // Subnet mask
 
